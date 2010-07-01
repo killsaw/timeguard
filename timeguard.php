@@ -1,8 +1,6 @@
 #!/usr/bin/php -q
 <?php
 
-error_reporting(E_ALL|E_STRICT);
-
 class Hostfile
 {
 	protected $lines;
@@ -138,7 +136,7 @@ exit;
 function timeguard_main($argv, $argc)
 {
 	if (!isset($argv[1])) {
-		die("Usage: timeguard [enable|disable|addsite] <optional param>\n");
+		die("Usage: timeguard [on|off|addsite] <optional param>\n");
 	}
 	
 	$host = new Hostfile;
