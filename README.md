@@ -36,3 +36,8 @@ Timeguard keeps a default list of sites to ban, including:
 Recommended
 -----------
 It's recommended you put timeguard into a directory included in your PATH list.
+
+Author
+------
+Timeguard is written by [Steven Bredenberg](http://killsaw.com/). Questions/comments
+email him: steven@killsaw.com
