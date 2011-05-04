@@ -13,11 +13,11 @@ Usage
 
 Enable Timeguard (disables access to sites):
 
-	$ sudo ./timeguard.php on
+	$ sudo timeguard.php on
 
 Disable Timeguard (removes all ban entries):
 
-	$ sudo ./timeguard.php off
+	$ sudo timeguard.php off
 
 Add a site to ban:
 	
